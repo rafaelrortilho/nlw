@@ -1,0 +1,246 @@
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(./img/Fundo.jpg);
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #121214;
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  margin: 0 auto;
+}
+
+body p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+body h2 {
+  padding-top: 20px;
+  margin-top: 5px;
+  margin-left: 15px;
+  letter-spacing: -0.47px;
+}
+
+header {
+  height: 120px;
+  padding: 80px;
+}
+
+header div {
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
+  padding: 5px;
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  border-radius: 50%;
+}
+
+header div img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+header img {
+  animation: profile 1s;
+  align-self: center;
+}
+
+header div {
+  animation: profile 3s;
+}
+
+section {
+  padding-top: 5px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 100%);
+  gap: 40px;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+main img {
+  transition: 0.5s;
+}
+
+main img:hover {
+  transform: scale(1.1);
+}
+
+section {
+  margin: 0 3%;
+}
+
+.jogos div,
+.streamers div,
+.animes div {
+  border-radius: 10px 10px 4px 4px;
+  padding: 24px 26px;
+}
+
+.jogos img,
+.animes img {
+  border-radius: 20px;
+  width: 180px;
+  height: auto;
+}
+
+nav ul li {
+  flex-wrap: wrap;
+}
+
+.jogos {
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  border-radius: 15px;
+}
+
+.jogos div {
+  background-color: #2a2634;
+}
+
+.jogos h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 38.4px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.jogos p {
+  color: #a1a1aa;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.6px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.jogos img {
+  width: 120px;
+  height: auto;
+}
+
+.lista-twitch {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.streamers {
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  border-radius: 15px;
+}
+
+.streamers div {
+  background-color: #2a2634;
+}
+
+.streamers h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 38.4px;
+}
+
+.streamers p {
+  color: #a1a1aa;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.6px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.streamers img {
+  border-radius: 50%;
+  width: 116px;
+  height: auto;
+  border: 1px solid #443e54;
+}
+
+.lista-canais {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.animes {
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  border-radius: 15px;
+}
+
+.animes div {
+  background-color: #2a2634;
+}
+
+.animes h2 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 38.4px;
+}
+
+.animes p {
+  color: #a1a1aa;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.6px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.animes img {
+  width: 120px;
+  height: auto;
+}
+
+.lista-animes {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@keyframes profile {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
